@@ -6,9 +6,8 @@ export interface Clap {
     price: number;
     name: string;
     description: string;
-    QR: string;
     image: string;
+    email: string;
     link: string;
     categoty: string;
-    qr: string;
 }
