@@ -6,6 +6,4 @@ export interface Clap {
     name: string;
     description: string;
     image: string;
-    QR: string;
-    qr: string;
 }
