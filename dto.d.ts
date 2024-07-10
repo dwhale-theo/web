@@ -9,4 +9,7 @@ export interface Clap {
     image: string;
     QR: string;
     qr: string;
+
+
+    
 }
