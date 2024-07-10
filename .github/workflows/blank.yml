@@ -17,7 +17,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # 인증 토큰 설정
+          token: ${{ secrets.TARGET_REPO_TOKEN }}  # 인증 토큰 설정
           branch: 'new-feature-branch2'  # 작업할 브랜치
           base: 'main'  # PR의 대상이 될 기준 브랜치
           commit-message: "Integrate changes from new-feature-branch2"
