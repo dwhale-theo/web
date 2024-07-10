@@ -18,8 +18,8 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.TARGET_REPO_TOKEN }}  # 인증 토큰 설정
-          branch: 'main'  # 작업할 브랜치
-          base: 'new-feature-branch2'  # PR의 대상이 될 기준 브랜치
+          branch: 'new-feature-branch2'  # 작업할 브랜치
+          base: 'main'  # PR의 대상이 될 기준 브랜치
           commit-message: "Integrate changes from new-feature-branch2"
           title: "Merge new features from new-feature-branch2 to main"
           body: "This is an auto-generated PR to merge changes from new-feature-branch2 into main."
