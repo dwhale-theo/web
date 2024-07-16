@@ -20,7 +20,7 @@ jobs:
           github_token: ${{ secrets.TARGET_REPO_TOKEN }}
           source_branch: dtopr
           target_branch: main
-          title: "Pull Request from dtopr to main"
-          body: "This is an automated pull request to merge changes from dtopr into main."
+          title: "[DTO] 서버 DTO.ts파일 업데이트"
+          body: "서버 DTO.ts파일 업데이트"
           draft: false
           label: update
