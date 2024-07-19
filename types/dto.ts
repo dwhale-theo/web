@@ -6,4 +6,6 @@ export interface Clap {
     link: string;
     categoty: string;
     name: string;
+    description: string;
+    image: string;
 }
