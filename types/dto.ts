@@ -2,5 +2,11 @@
 /* eslint-disable */
 
 export interface Clap {
-    email: string;
+  email: string;
+  password: string;
+  name: string;
+  nickname: string;
+  phone: string;
+  address: string;
+  age: number;
 }
